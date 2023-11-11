@@ -1,0 +1,60 @@
+*, *::after,*::before{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    background-color: #f7f7f7;
+}
+
+.header-nav {
+    padding: 20px;
+}
+.img-icon, .icon{
+    width: 24px;
+}
+
+.logo-image {
+    width: 150px;
+    display: block;
+   margin: 30px auto;
+}
+/* todo  Input-mobile Start*/
+.form{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.form input{
+    width: 100%;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+   
+}
+.icon{
+    position: absolute;
+    right: 0;
+    top: 25%;
+    margin-right: 10px;
+    
+} .end-piece{
+    text-align: center;
+    margin-top: 10px;
+    color: #9a9a9a;
+    font-family: "DDG_ProximaNova","DDG_ProximaNova_UI_0","DDG_ProximaNova_UI_1","DDG_ProximaNova_UI_2","DDG_ProximaNova_UI_3","DDG_ProximaNova_UI_4","DDG_ProximaNova_UI_5","DDG_ProximaNova_UI_6","Proxima Nova","Helvetica Neue","Helvetica","Segoe UI","Nimbus Sans L","Liberation Sans","Open Sans",FreeSans,Arial,sans-serif;
+}
+/* todo  Input End */
+/* ?Input-Ipad Start */
+@media(min-width:600px){
+    .form{
+        width: 600px;
+    }
+    .header-section{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+   
+}
